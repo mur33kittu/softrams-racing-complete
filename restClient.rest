@@ -1,0 +1,20 @@
+POST http://localhost:8000/api/addMember HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Murthy",
+    "jobTitle": "Full Stack Developer",
+    "lastName": "Guruswamy",
+    "status": "Active"
+}
+
+###
+
+GET http://localhost:8000/api/teams HTTP/1.1
+
+###
+GET http://localhost:8000/api/members HTTP/1.1
+
+
+###
+DELETE http://localhost:8000/api/members/delete/3 HTTP/1.1
